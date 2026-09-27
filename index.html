@@ -1,0 +1,624 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Motherland Studios Café</title>
+
+    <meta
+        name="description"
+        content="Motherland Studios Café — a neighbourhood café serving coffee, brunch, pasta, desserts and more."
+    >
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="navbar" id="navbar">
+
+        <a href="#home" class="logo">
+            <span>Motherland</span>
+            <small>STUDIOS & CAFÉ</small>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#visit">Visit</a>
+        </nav>
+
+        <a href="#menu" class="nav-button">
+            Explore Menu
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+
+    <!-- =========================
+         MOBILE NAVIGATION
+    ========================== -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit">Visit</a>
+
+        <a href="#menu" class="mobile-menu-button">
+            Explore Menu
+        </a>
+
+    </div>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    MOTHERLAND STUDIOS
+                </p>
+
+                <h1>
+                    A place to<br>
+                    <em>eat, meet & stay.</em>
+                </h1>
+
+                <p class="hero-description">
+                    Coffee, brunch, handmade pasta and everything
+                    in between — served in the heart of the city.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#menu" class="primary-button">
+                        Discover the Menu
+                    </a>
+
+                    <a href="#about" class="secondary-button">
+                        Our Story
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-scroll">
+                <span></span>
+                Scroll to explore
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             INTRO
+        ========================== -->
+
+        <section class="intro section-padding">
+
+            <div class="intro-label">
+                <span>01</span>
+                <span>THE EXPERIENCE</span>
+            </div>
+
+            <div class="intro-content">
+
+                <h2>
+                    More than<br>
+                    <em>just a café.</em>
+                </h2>
+
+                <div class="intro-text">
+
+                    <p>
+                        Motherland Studios Café is a place where good food,
+                        thoughtful coffee and conversations come together.
+                    </p>
+
+                    <p>
+                        From slow mornings to long lunches, discover a menu
+                        inspired by flavours from around the world.
+                    </p>
+
+                    <a href="#about" class="text-link">
+                        Discover our story →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FEATURED DISHES
+        ========================== -->
+
+        <section class="featured section-padding">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="section-number">02</span>
+                    <p class="section-eyebrow">FROM THE KITCHEN</p>
+                </div>
+
+                <h2>
+                    A few <em>favourites.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="featured-grid">
+
+                <article class="food-card food-card-large">
+
+                    <div class="food-image">
+                        <img
+                            src="assets/signature-greens.jpg"
+                            alt="Motherland Signature Greens"
+                        >
+                    </div>
+
+                    <div class="food-info">
+                        <div>
+                            <h3>Motherland Signature Greens</h3>
+                            <p>
+                                Fresh greens with carefully selected
+                                seasonal ingredients.
+                            </p>
+                        </div>
+
+                        <span>₹450</span>
+                    </div>
+
+                </article>
+
+
+                <article class="food-card">
+
+                    <div class="food-image">
+                        <img
+                            src="assets/poached-eggs.jpg"
+                            alt="New York Poached Eggs"
+                        >
+                    </div>
+
+                    <div class="food-info">
+                        <div>
+                            <h3>New York Poached Eggs</h3>
+                            <p>
+                                A Motherland brunch favourite.
+                            </p>
+                        </div>
+
+                        <span>₹500</span>
+                    </div>
+
+                </article>
+
+
+                <article class="food-card">
+
+                    <div class="food-image">
+                        <img
+                            src="assets/grilled-cheese.jpg"
+                            alt="Famous Grilled Cheese"
+                        >
+                    </div>
+
+                    <div class="food-info">
+                        <div>
+                            <h3>Famous Grilled Cheese</h3>
+                            <p>
+                                Golden, comforting and full of flavour.
+                            </p>
+                        </div>
+
+                        <span>₹400</span>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             MENU
+        ========================== -->
+
+        <section class="menu-section section-padding" id="menu">
+
+            <div class="menu-heading">
+
+                <div>
+                    <span class="section-number">03</span>
+                    <p class="section-eyebrow">THE MENU</p>
+                </div>
+
+                <h2>
+                    Something for<br>
+                    <em>every mood.</em>
+                </h2>
+
+                <p>
+                    Explore our selection of coffee, brunch favourites,
+                    small bites, handmade pasta and desserts.
+                </p>
+
+            </div>
+
+
+            <!-- Menu Category Buttons -->
+
+            <div class="menu-categories" id="menuCategories">
+
+                <button class="category-button active" data-category="coffee">
+                    Coffee
+                </button>
+
+                <button class="category-button" data-category="beverages">
+                    Beverages
+                </button>
+
+                <button class="category-button" data-category="eggs">
+                    Eggs
+                </button>
+
+                <button class="category-button" data-category="salads">
+                    Salads
+                </button>
+
+                <button class="category-button" data-category="crepes">
+                    Crepes
+                </button>
+
+                <button class="category-button" data-category="bagels">
+                    Bagels
+                </button>
+
+                <button class="category-button" data-category="sandwiches">
+                    Sandwiches
+                </button>
+
+                <button class="category-button" data-category="small-bites">
+                    Small Bites
+                </button>
+
+                <button class="category-button" data-category="big-bites">
+                    Big Bites
+                </button>
+
+                <button class="category-button" data-category="pasta">
+                    Pasta
+                </button>
+
+                <button class="category-button" data-category="desserts">
+                    Desserts
+                </button>
+
+            </div>
+
+
+            <!-- Dynamic Menu -->
+
+            <div class="menu-grid" id="menuGrid">
+
+                <!-- JavaScript will insert menu items here -->
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section class="about section-padding" id="about">
+
+            <div class="about-image">
+
+                <img
+                    src="assets/cafe-interior.jpg"
+                    alt="Motherland Studios Café interior"
+                >
+
+            </div>
+
+
+            <div class="about-content">
+
+                <div class="section-label">
+                    <span>04</span>
+                    ABOUT MOTHERLAND
+                </div>
+
+                <h2>
+                    Come for the food.<br>
+                    <em>Stay for the feeling.</em>
+                </h2>
+
+                <p>
+                    Motherland Studios Café brings together food,
+                    creativity and community under one roof.
+                </p>
+
+                <p>
+                    Whether you're starting your morning with coffee,
+                    meeting friends for brunch or settling in for a
+                    long afternoon, there's always a reason to stay
+                    a little longer.
+                </p>
+
+                <a href="#visit" class="text-link">
+                    Find us →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             GALLERY
+        ========================== -->
+
+        <section class="gallery section-padding" id="gallery">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="section-number">05</span>
+                    <p class="section-eyebrow">INSIDE MOTHERLAND</p>
+                </div>
+
+                <h2>
+                    See you <em>there.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item gallery-large">
+                    <img
+                        src="assets/gallery-1.jpg"
+                        alt="Motherland Studios Café"
+                    >
+                </div>
+
+                <div class="gallery-item">
+                    <img
+                        src="assets/gallery-2.jpg"
+                        alt="Food at Motherland Studios Café"
+                    >
+                </div>
+
+                <div class="gallery-item">
+                    <img
+                        src="assets/gallery-3.jpg"
+                        alt="Coffee at Motherland Studios Café"
+                    >
+                </div>
+
+                <div class="gallery-item gallery-wide">
+                    <img
+                        src="assets/gallery-4.jpg"
+                        alt="Motherland Studios Café atmosphere"
+                    >
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             VISIT
+        ========================== -->
+
+        <section class="visit section-padding" id="visit">
+
+            <div class="visit-content">
+
+                <div class="section-label">
+                    <span>06</span>
+                    COME BY
+                </div>
+
+                <h2>
+                    Your table<br>
+                    <em>is waiting.</em>
+                </h2>
+
+                <div class="visit-details">
+
+                    <div class="detail">
+
+                        <span class="detail-label">
+                            LOCATION
+                        </span>
+
+                        <p>
+                            Motherland Studios Café<br>
+                            Kolkata, West Bengal
+                        </p>
+
+                    </div>
+
+
+                    <div class="detail">
+
+                        <span class="detail-label">
+                            HOURS
+                        </span>
+
+                        <p>
+                            Monday – Sunday<br>
+                            Please check current opening hours
+                        </p>
+
+                    </div>
+
+
+                    <div class="detail">
+
+                        <span class="detail-label">
+                            FOLLOW ALONG
+                        </span>
+
+                        <p>
+                            Instagram<br>
+                            @motherlandstudios
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="visit-buttons">
+
+                    <a href="#" class="primary-button">
+                        Get Directions
+                    </a>
+
+                    <a href="#" class="secondary-button dark">
+                        Instagram
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="visit-image">
+
+                <img
+                    src="assets/cafe-exterior.jpg"
+                    alt="Motherland Studios Café exterior"
+                >
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="footer-top">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+                    <span>Motherland</span>
+                    <small>STUDIOS & CAFÉ</small>
+                </a>
+
+                <p>
+                    Good food.<br>
+                    Good coffee.<br>
+                    Good company.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <div>
+                    <span>EXPLORE</span>
+
+                    <a href="#home">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#about">About</a>
+                    <a href="#gallery">Gallery</a>
+                </div>
+
+
+                <div>
+                    <span>VISIT</span>
+
+                    <a href="#visit">Location</a>
+                    <a href="#visit">Hours</a>
+                    <a href="#visit">Instagram</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Motherland Studios Café
+            </p>
+
+            <p>
+                Concept website by Amaan
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
